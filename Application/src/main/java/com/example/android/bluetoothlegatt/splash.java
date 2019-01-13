@@ -21,18 +21,10 @@ public class splash extends Activity {
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
             // Android M Permission check
             if(this.checkSelfPermission(android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED){
-                final AlertDialog.Builder builder = new AlertDialog.Builder(this);
-                builder.setTitle("This app needs location access");
-                builder.setMessage("Please grant location access so this app can detect beacons.");
-                builder.setPositiveButton("Ok", null);
-                builder.setOnDismissListener(new DialogInterface.OnDismissListener() {
-                    @TargetApi(Build.VERSION_CODES.M)
-                    @Override
-                    public void onDismiss(DialogInterface dialog) {
-                        requestPermissions(new String[]{android.Manifest.permission.ACCESS_COARSE_LOCATION}, 1);
-                    }
-                });
-                builder.show();
+                    requestPermissions(new String[]{android.Manifest.permission.ACCESS_COARSE_LOCATION}, 1);
+            } else {
+                Intent intent=new Intent(this, DeviceScanActivity.class);
+                startActivity(intent);
             }
         }
     }
@@ -48,14 +40,14 @@ public class splash extends Activity {
                     startActivity(intent);
                 }else{
                     final AlertDialog.Builder builder = new AlertDialog.Builder(this);
-                    builder.setTitle("Functionality limited");
-                    builder.setMessage("Since location access has not been granted, " +
-                            "this app will not be able to discover beacons when in the background.");
-                    builder.setPositiveButton("Ok", null);
+                    builder.setTitle("기능 제한됨");
+                    builder.setMessage("위치접근 권한이 거부되어, " +
+                            "정상적인 작동이 불가능하므로 종료됩니다");
+                    builder.setPositiveButton("확인", null);
                     builder.setOnDismissListener(new DialogInterface.OnDismissListener() {
                         @Override
                         public void onDismiss(DialogInterface dialog) {
-
+                            finish();
                         }
                     });
                     builder.show();

@@ -16,13 +16,12 @@
 -->
 
 <resources>
-    <string name="app_name">BluetoothLeGatt</string>
+    <string name="app_name">블루투스LE GATT 제어</string>
     <string name="intro_message">
         <![CDATA[
-        
-            
-            This sample demonstrates how to use the Bluetooth LE Generic Attribute Profile (GATT)
-            to transmit arbitrary data between devices.
+
+
+            이 샘플은 블루투스LE 장치 사이에서 임의의 데이터 전송하기 위한 Generic Attribute Profile (GATT) 사용 예를 보여줍니다.
             
         
         ]]>

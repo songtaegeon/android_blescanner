@@ -13,23 +13,23 @@
      limitations under the License.
 -->
 <resources>
-    <string name="ble_not_supported">BLE is not supported</string>
-    <string name="label_data">Data:</string>
-    <string name="label_device_address">Device address:</string>
-    <string name="label_state">State:</string>
-    <string name="no_data">No data</string>
-    <string name="connected">Connected</string>
-    <string name="disconnected">Disconnected</string>
-    <string name="title_devices">BLE Device Scan</string>
-    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="ble_not_supported">블루투스LE 지원 안됨</string>
+    <string name="label_data">정보:</string>
+    <string name="label_device_address">장치 주소:</string>
+    <string name="label_state">상태:</string>
+    <string name="no_data">데이터 없음</string>
+    <string name="connected">연결됨</string>
+    <string name="disconnected">연결해제됨</string>
+    <string name="title_devices">블루투스LE 장치 검색</string>
+    <string name="error_bluetooth_not_supported">블루투스 지원 안됨</string>
 
-    <string name="unknown_device">Unknown device</string>
-    <string name="unknown_characteristic">Unknown characteristic</string>
-    <string name="unknown_service">Unknown service</string>
+    <string name="unknown_device">알 수 없는 장치</string>
+    <string name="unknown_characteristic">알 수 없는 특성</string>
+    <string name="unknown_service">알 수 없는 서비스</string>
 
     <!-- Menu items -->
-    <string name="menu_connect">Connect</string>
-    <string name="menu_disconnect">Disconnect</string>
-    <string name="menu_scan">Scan</string>
-    <string name="menu_stop">Stop</string>
+    <string name="menu_connect">연결</string>
+    <string name="menu_disconnect">연결해제</string>
+    <string name="menu_scan">검색</string>
+    <string name="menu_stop">중지</string>
 </resources>
