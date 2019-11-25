@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rtbli\\Documents\\GitHub\\android-BluetoothLeGatt\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\songt\\Documents\\GitHub\\ble_scanner_deviceRegisteration\\android-BluetoothLeGatt\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rtbli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\6978c8e4b052af1765e42b59b4493c61\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\songt\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ba3324030dc74b4fb68d890c807e9643\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,26 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rtbli\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\4efaf574a5f24d3acfe028949d6840f8\\res\\values-v21\\values-v21.xml",
-                    "from": {
-                        "startLines": "2,5,8,11",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,223,386,554",
-                        "endLines": "4,7,10,13",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "218,381,549,716"
-                    },
-                    "to": {
-                        "startLines": "265,268,272,276",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "19507,19675,19964,20260",
-                        "endLines": "267,270,274,278",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "19670,19833,20127,20422"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rtbli\\Documents\\GitHub\\android-BluetoothLeGatt\\Application\\src\\main\\res\\values-v21\\base-template-styles.xml",
+                    "source": "C:\\Users\\songt\\Documents\\GitHub\\ble_scanner_deviceRegisteration\\android-BluetoothLeGatt\\Application\\src\\main\\res\\values-v21\\base-template-styles.xml",
                     "from": {
                         "startLines": "20",
                         "startColumns": "4",
@@ -61,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rtbli\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\df1ab9639950e7b6411708404f3d923d\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\songt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\59158136096cbc2e00263d92a13711ab\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -77,6 +58,25 @@
                         "endLines": "2,3,4,5,263,264,271,275,283,288",
                         "endColumns": "103,63,66,63,115,125,125,127,12,12",
                         "endOffsets": "154,218,285,349,19376,19502,19959,20255,20675,21013"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\songt\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\3341b2e34f41d9aef726c7af05e479fe\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "265,268,272,276",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "19507,19675,19964,20260",
+                        "endLines": "267,270,274,278",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "19670,19833,20127,20422"
                     }
                 }
             ]

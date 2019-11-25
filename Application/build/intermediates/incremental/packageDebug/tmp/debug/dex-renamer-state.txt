@@ -1,4 +1,4 @@
-#Sun Jan 13 21:23:43 KST 2019
-base.0=C\:\\Users\\rtbli\\Documents\\GitHub\\android-BluetoothLeGatt\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Mon Nov 25 13:13:59 KST 2019
+base.0=C\:\\Users\\songt\\Documents\\GitHub\\android-BluetoothLeGatt\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
